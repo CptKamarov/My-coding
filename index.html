@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        table,tr {
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Australian Dollar</h1>
+    <h3>Please enter your price to exchange your money</h3>
+
+    <form>
+    <table style="width: 100%;">
+    <p>การคำนวณค่าเงินดอลล่าออสเตรเลีย</p>
+        <tr>
+            <th>จำนวนเงินดอลล่าออสเตรเลีย</br><input type="text" id="number1"></th>
+        </tr>
+            <td><input type="button" value="แปลงเป็นสกุลเงินบาท" onclick="cal()"></td>
+        <tr>
+            <td><div id="result">Waiting to Calculate</div></br></td>
+        </tr>
+
+    </table>
+    </form>
+</body>
+<script src="index.js"></script></br>
+</html>

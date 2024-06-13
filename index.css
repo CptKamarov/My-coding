@@ -1,0 +1,40 @@
+body {
+    background-color: lightcoral;
+}
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+h3 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+form {
+    text-align: center;
+    border-radius: 20px;
+}
+input {
+    background-color: bisque;
+    font-style: inherit;
+    text-align: center;
+    border-style: inset;
+    padding: 5px;
+    margin: 15px;
+}
+div {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+button {
+    background-color: azure;
+    text-align: center;
+    font-style: inherit;
+}
